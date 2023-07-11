@@ -111,4 +111,18 @@ body{
 
 
 
+/* hot deal portion */
+ .hot-deal{
+    display:flex;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-around;  
+    /* width: 1922px;
+    height: 620px;  */
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+
 
