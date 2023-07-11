@@ -129,12 +129,49 @@ body{
 
 /* features */
 .featured{
-    display:flex;
+    display:block;
     background: #fff;
     justify-content: space-around;  
     text-align: center;
     align-items: center;
-    height: 500px;   
+    width: 100%; 
+    margin-bottom: 60px;
+}
+
+.featured .box div{
+    border-radius: 300px 300px 0px 0px;
+    width: 250px;
+}
+
+.featured .box .box-1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.featured .box .box-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.featured .box .box-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured .box div img{
+    padding-top: 50px;
+}
+
+.featured .box div{
+    position: relative;
+}
+.featured .box div strong{
+    position: absolute;
+    text-decoration: underline;
+    bottom: -25px;
+    left: 0px;
+    right: 0px;
+}
+
+.featured-box{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
 }
 
 /* hot deal portion */
@@ -160,16 +197,45 @@ body{
 /* instagram-section */
 .instagram-section{
     display:block;
-    background: rgba(229, 84, 115, 0.05);;
+    background: #fff;
     justify-content: space-around;  
     text-align: center;
     align-items: center;
-    height: 500px;
     width: 100%;
 }
-.instagram-section .details1{
+.instagram-section .details1, .featured .details1{
     text-align: center;
     padding: 0px 350px;
+}
+.instagram-section .title, .featured .title{
+    margin-top: 50px;
+}
+
+.subscribe-box h2{
+    font-size: 40px;
+    padding-top: 80px;
+    margin-bottom: 5px;
+}
+.subscribe-box p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+.subscribe-box h2, .subscribe-box p{
+    text-align: center;
+    margin-top: 0;
+}
+
+form input{
+    width: 300px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+form button{
+    font-size: 15px !important;
+    padding: 18px 42px !important;
 }
 
 .box{
@@ -184,7 +250,17 @@ body{
 }
 
 .subscribe-box{
-    background: url(../images/rectangle-9.png) ;
+    background: url(../images/rectangle-9.png);
+    height: 300px;
+    width: 982px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0px 0px 5px 5px;
+    background-position: top;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 
@@ -219,4 +295,14 @@ footer p{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    padding: 0px 350px;
+}
+footer .copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
