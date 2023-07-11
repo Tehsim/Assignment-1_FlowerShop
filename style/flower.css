@@ -5,10 +5,13 @@ body{
     display:flex;
     background: rgba(229, 84, 115, 0.10);
     justify-content: space-between;  
+    width: 1920px;
+    height: 850px;
 }
 .Writtings{
    margin: 100px 300px 50px 100px;
 }
+
 .heading{
 
     color: #272727;
@@ -54,7 +57,7 @@ body{
     display:flex;
     background: #FFF;
     justify-content: space-between;
-    padding:5px 240px 5px 240px;
+    padding:10px 150px 10px 150px;
 
 }
 .stdiv{
@@ -62,7 +65,7 @@ body{
     background: rgba(167, 33, 98, 0.15);
     width: 464px;
     height: 538px;
-    margin:0;
+    margin:10px;
 
 }
 .twdiv{
@@ -70,18 +73,40 @@ body{
     background: rgba(5, 151, 160, 0.15);
     width: 464px;
     height: 538px;
-    margin:0;
+    margin:10px;
 }
 .thdiv{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     width: 464px;
     height: 538px;
-    margin:0;
+    margin:10px;
     
 }
 .primary-color{
     color:#E55473;
+}
+.text{
+    text-align: center;
+}
+.pic{
+    display:flex;
+    
+}
+.p{
+    padding:110px 78px 0px 76px;
+    margin-bottom:15px;
+}
+.p1{
+    padding:117px 47px 51px 47px;
+    margin-bottom:15px;
+}
+.p2{
+    padding:67px 75px 0px 75px;
+    margin-bottom:15px;
+}
+.m{
+    padding:50px 240px 0px 0px;
 }
 
 
