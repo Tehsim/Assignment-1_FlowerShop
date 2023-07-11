@@ -1,0 +1,42 @@
+body{
+    font-family: Lato;
+}
+.header_sec{
+    display:flex;
+    background: rgba(229, 84, 115, 0.10);
+    
+}
+.Writtings{
+   margin: 100px 300px 50px 100px;
+}
+.heading{
+    
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.details{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;  
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border:0;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+
+
+
