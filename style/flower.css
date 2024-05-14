@@ -21,7 +21,7 @@ body{
     padding-top: 100px;
 }
 .header_sec .image{
-    background: url(../images/pngwing-10.png) top center;
+    background: url(/images/pngwing-10.png) top center;
     background-position: 0px 0px;
     background-size: contain;
     background-repeat: no-repeat;
